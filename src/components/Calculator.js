@@ -42,6 +42,9 @@ childhandler = (e) => {
 
  // take this to own wiki  git branch -M main os force rename
 
+ // to deploy to github pages pending  https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+ // deploy to heroku remember this is main  so you do git push heroku main
+ 
 
   handleCelsiusChange = (temperature) => {// 
     this.setState({scale: 'c', temperature});
