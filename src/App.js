@@ -1,6 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
+import Calculator from './components/Calculator'
 import './App.css';
+
+//import BoilingVerdict from './components/BoilingVerdict';
+
+
+
+
+//calculator tiene 2 children temperatureinput y boilingverdit
+// then to coordinate conversations between children use the parent
+
+
+
+
 
 function App() {
   return (
@@ -19,6 +32,8 @@ function App() {
           Learn React
         </a>
       </header>
+    <Calculator celsius={1}/>
+
     </div>
   );
 }
