@@ -40,6 +40,8 @@ childhandler = (e) => {
 
  */
 
+ // take this to own wiki  git branch -M main os force rename
+
 
   handleCelsiusChange = (temperature) => {// 
     this.setState({scale: 'c', temperature});
